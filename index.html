@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirASDC</title>
+    <style>
+ 
+      .intro-text {
+
+        text-align:left;
+            line-height: 1.5;
+            margin: 5px;
+
+      }
+
+      .button {
+            background-color: #3498db; 
+          
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        table,th,tr,td {
+          
+          border: 1px solid black; 
+
+        }
+
+
+        .answer {
+            font-size: 16px;
+            margin-top: 10px;
+        }
+      
+        
+        .footer {
+            text-align: left;
+            padding: 5px;
+            color: #000000;
+        }
+        
+        
+        .nav {
+            text-align: left;
+            padding: 10px;
+            color: #1e53e4;
+        }
+
+        hr.divider {
+            width: 50%; 
+        }
+        
+        
+         
+
+
+
+    </style>
+
+    
+
+    
+</head>
+<body>
+ 
+<fieldset style="width: 100%;">
+  <div class="nav">
+    <a href="#home">Home</a>
+    <a href="#flight">Flight</a>
+    <a href="#timings">Flight Timings</a>
+    <a href="#about">About Us</a>
+    <a href="#faq">FAQs</a>
+</div>
+  </fieldset>
+  <br>
+  <br> 
+
+  <h1>Home</h1>
+     <h2><b><u>Welcome to AirASDC</u></b></h2>
+    
+     <img src="./images/flight-booking.jpg" alt="image" width="500" height="400"  >
+     <br>
+     <br>
+     <div class="intro-text">
+     <p1>Embark on Your Next Adventure with AirASDC!Are you ready to take off on an unforgettable journey?<br> Look no further! Welcome to AirASDC, your ultimate destination for all things related to flight booking and exploration.<br> Whether you're planning a business trip, a family vacation, or a spontaneous getaway, AirASDC has got you covered.</p1>
+     </div>
+     <div class="Reviews">
+
+       <h2><U>Reviews:</U></h2>
+      <fieldset>
+        
+             
+            <h>Emily C.</h> 	
+                &#10027;,	&#10027; 	&#10027;, 	&#10027; 	&#10027; 
+              <Br>
+               "AirASDC made my vacation planning a breeze! <br> I found the perfect flights and even got some insider tips about my destination." 
+            
+             <br>
+             <hr></hr>
+            
+                <h> Alex R.</h>
+                &#10027;,	&#10027; 	&#10027;, 	&#10027; 
+                <br>
+               "As a frequent traveler, I rely on AirASDC to always find me the best deals. <Br> It's my go-to platform for all my flight bookings."
+            
+        </ol>
+      </fieldset>
+      </div>
+    
+    <br>
+    <h2><U>Add your Reviews</U></h2>
+      <Fieldset style="width: 50%;">
+      <div class="reviews">
+    
+
+        <form action="#">
+        
+            <label for="firstname">Name*:</label>
+            <br>
+            <input type="text"    id="firstname"   name="firstname" placeholder="Firstname lastname">
+            <br>
+            <br>
+            
+            <label for="firstname">Rating:</label>
+            <br>
+                <label>
+                  <input type="radio" name="stars" value="1" />
+                  <span class="icon">1&#10027;</span>
+                </label>
+                <label>
+                  <input type="radio" name="stars" value="1" />
+                  <span class="icon">2&#10027;</span>
+
+                </label>
+                <label>
+                  <input type="radio" name="stars" value="1" />
+                  <span class="icon">3&#10027;</span>
+ 
+                </label>
+                <label>
+                  <input type="radio" name="stars" value="1" />
+                  <span class="icon">4&#10027;</span>
+                </label>
+                <label>
+                  <input type="radio" name="stars" value="1" />
+                  <span class="icon">5&#10027;</span>
+                
+                </label>
+                <br>
+                <br>
+              
+            <label for="FlightNumber">FlighNumber*:</label>
+            <br>
+            <input type="text"    id="FlightNumber"   name="FlightNumber" placeholder="PNR Number">
+            <br>
+            <br>
+            <label for="FlightDate">FlightDate*:</label>
+            <br>
+            <input type="date"    id="FlightDate"   name="FlightDate">
+             <br>
+            <br>
+            <label for="Add Comments">Add Comments*:</label>
+            <br>
+             
+            <textarea id=Add Comments class="answer" readonly> Add Your Comment here</textarea>
+             <br>
+            <br>
+            <Button style="color: #3498db;">Submit</Button>
+
+        </form>
+
+
+    </div>
+    </Fieldset>
+    <br>
+
+    <hr></hr>
+    
+    <h2><b><U>Flights Selection</U></b></h2>
+  <fieldset style="width: 50%;">
+    <div class="flight-form">
+      <br>
+      <h2>Book Your flights here:</h2>
+      <br>
+      <form action="#">
+
+          <label for="departure">Departure:</label>
+          <select id="departure" name="departure">
+
+            <option value="city2">Select The City</option>
+            <option value="city1">Mumbai</option>
+            <option value="city2">Hyderabad</option>
+            <option value="city2">delhi</option>
+            <option value="city2">Kerala</option>
+            <option value="city2">chennai</option>
+              
+          </select>
+          <br>
+          <br>
+
+          <label for="arrival">Arrival:</label>
+          <select id="arrival" name="arrival">
+            <option value="city2">Select The City</option>
+              <option value="city1">Mumbai</option>
+              <option value="city2">Hyderabad</option>
+              <option value="city2">delhi</option>
+              <option value="city2">Kerala</option>
+              <option value="city2">chennai</option>
+          </select>
+          <br>
+          <br>
+
+          <label for="departureDate">Departure Date:</label>
+          <input type="date" id="departureDate" name="departureDate">
+          <br>
+          <br>
+
+          <label for="returnDate">Return Date:</label>
+          <input type="date" id="returnDate" name="returnDate">
+          <br>
+          <br>
+
+          <label for="passengers">Passengers:</label>
+          <input type="number" id="passengers" name="passengers" min="1" value="10">
+          <br>
+          <br>
+
+          <label for="priceRange">Price Range:</label>
+          <input type="range" id="priceRange" name="priceRange" min="0" max="10000" step="10" value="5000">
+
+           <br>
+           <br>
+          <button type="submit">Search Flights</button>
+      </form>
+  </div>
+
+<br>
+
+
+<h2>Flight Schedule</h2>
+
+
+<table>
+  
+   <thead>
+      <th>FlightNo</th>
+      <th>Departure Time</th>
+      <th>Arrival Time</th>
+      </thead>
+
+   
+
+   <tbody>
+      
+     <tr>
+      <td>BA138</td>
+      <td>21:20pm </td>
+      <td>23:45pm</td>
+     </tr>
+    <tr>
+      
+    </tr> 
+    <tr>
+    <td>BA143</td>
+    <td>08:30am</td>
+    <td>10:55am</td>
+   </tr>
+
+  </tr> 
+  <tr>
+  <td>BA257</td>
+  <td>12:450pm</td>
+  <td>2:10pm</td>
+ </tr>
+
+
+
+   </tbody>
+
+  </table>
+  </fieldset>
+
+  <Br>
+  <fieldset >
+  <div >
+    <h2>About Us</h2>
+    <p>Welcome to AirASDC, your ultimate destination for seamless flight booking experiences. ,<br> We are committed to providing top-notch services to our valued customers.<br> With a passion for travel and technology, we've created a platform that makes booking flights and exploring destinations a breeze. Join us in the journey to discover the world from above!</p>
+</div>
+</fieldset>
+<br>
+
+<fieldset>
+
+<div >
+    <h2>Contact Us</h2>
+    <p>If you need assistance or have any inquiries, feel free to reach out to us:</p>
+    <p>Email: <a href="mailto:info@flighthub.com">info@flighthub.com</a></p>
+    <p>Phone: <a href="mailto:">+91 9876543210</a>
+</div>
+</fieldset>
+
+<div >
+    <h2><b><u> Popular Destinations:</u></b></h2>
+    <p><b>Explore some of our most sought-after destinations:</b></p>
+    <ul>
+        <li>goa</li>
+        <br>
+        <img src="/images/Goa.jpeg" alt="">
+        <br>
+        <li>Mumbai</li>
+        <br>
+        <img src="./images/Mumbai.jpeg" alt="">
+        <br>
+        <li>Delhi</li>
+        <br>
+        <img src="./images/delhi.jpeg" alt="">
+        <br>
+        <li>Hyderabad</li>
+        <br>
+        <img src="./images/hyderabad.jpeg" alt="">
+        <br>
+        <li>Kerala</li>
+        <br>
+        <img src="./images/kerala.jpeg" alt="">
+        <br>
+    </ul>
+</div>
+<br>
+ 
+<h2><u>FAQ's</u></h2>
+<fieldset>
+<div class="FAQs"> 
+  <h2>Frequently Asked Questions (FAQ)</h2>
+  
+  <h3>Q: How do I book a flight?</h3>
+  <p class="answer">It's easy! Simply use our flight search form to enter your departure and arrival destinations, choose your travel dates, select the number of passengers, and hit the 'Search Flights' button.</p>
+  <hr>
+  <h3>Q: Can I change my booking?</h3>
+  <p class="answer">Yes, you can. Please log in to your account and navigate to the 'My Bookings' section to manage your booking details.</p>
+  <hr>
+  <h3>Q: What payment methods do you accept?</h3>
+  <p class="answer">We accept major credit and debit cards for secure online payments. You can also choose from various payment options during the checkout process.</p>
+  <hr>
+  <h3>Q: Are my personal details safe?</h3>
+  <p class="answer">Absolutely. We prioritize the security and privacy of your personal information. Our website uses advanced encryption technology to safeguard your data.</p>
+  <hr>
+  <h3>Q: How can I contact customer support?</h3>
+  <p class="answer">If you need assistance, you can reach out to us at support@flighthub.com. Our dedicated support team is available to help you.</p>
+</div>
+
+ 
+</fieldset>
+<br>
+
+<hr></hr>
+<div class="footer">
+  &copy; 2023 AirASDC. All rights reserved.
+</div>
+<hr>
+<br>
+
+
+
+</body>
+</html>
